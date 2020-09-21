@@ -2,7 +2,7 @@
 title: About us
 subtitle: Hi there, we're Maya & Jeroen!
 description: Hi there, we're Maya & Jeroen!
-featured_image: /images/demo/demo-portrait.jpg
+featured_image: /images/about/featured.jpg
 ---
 
 ![](/images/about/both.jpg)
