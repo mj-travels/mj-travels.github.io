@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Projects
-subtitle: What I've been working on lately.
-description: Journal is a stunning personal blog Jekyll theme with an image-focused design.
+title: Gallery
+subtitle: Pictures taken during our vacations.
+description: Pictures taken during our vacations.
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
@@ -21,18 +21,18 @@ featured_image: /images/demo/demo-landscape.jpg
 
 	<div class="wrap">
 
-		{% for project in site.projects reversed %}
+		{% for vacation in site.gallery reversed %}
 
 		<div class="portfolio-item">
 
-			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
+			<a class="portfolio-item__link" href="{{ vacation.url | relative_url }}">
 
-				<div class="portfolio-item__image" style="background-image: url({{ project.featured_image | relative_url }});"></div>
+				<div class="portfolio-item__image" style="background-image: url({{ vacation.featured_image | relative_url }});"></div>
 
 				<div class="portfolio-item__content">
 					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">{{ project.title }}</h2>
-						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+						<h2 class="portfolio-item__title">{{ vacation.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ vacation.subtitle }}</p>
 					</div>
 				</div>
 

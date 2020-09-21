@@ -1,6 +1,6 @@
 basic_settings:
   site_title: MJ Travels
-  site_tagline: Travel experiences shared with the world.
+  site_tagline: Our travel experiences shared with the world.
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -29,8 +29,8 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url: ''
-  twitter_url: ''
+  facebook_url: 'https://www.facebook.com/mj.travels.blog'
+  twitter_url: 'https://twitter.com/MJ_Travels_Blog'
   instagram_url: ''
   snapchat_url: ''
   youtube_url: ''
