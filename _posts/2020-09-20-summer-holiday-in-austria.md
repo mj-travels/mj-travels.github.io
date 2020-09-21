@@ -49,9 +49,9 @@ The theme also supports markdown tables:
 
 And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
 
-[^1]: Beautiful modern, minimal theme design.
+<!-- [^1]: Beautiful modern, minimal theme design.
 [^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
+[^3]: Maintained and supported by the theme developer. -->
 
 You can throw in some horizontal rules too:
 
