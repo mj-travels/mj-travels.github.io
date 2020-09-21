@@ -1,12 +1,12 @@
 basic_settings:
   site_title: MJ Travels
   site_tagline: Our travel experiences shared with the world.
-  favicon_image: /images/favicon.png
+  favicon_image: /images/logo/favicon.png
 
 header_settings:
-  logo_image: 
+  logo_image: '/images/logo/title.png'
   logo_width: 200
-  overlay_opacity: 0.7
+  overlay_opacity: 0.8
 
 menu_settings:
   menu_items:
@@ -62,7 +62,7 @@ color_settings:
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
-  accent_color: '#A2DED0'
+  accent_color: '#9CCC65'
   border_color: '#dddddd'
   overlay_background_color: '#161B21'
   overlay_text_color: '#ffffff'
@@ -154,7 +154,7 @@ font_settings:
     letter_spacing: 0
 
 advanced_settings:
-  ajax_loading: false
+  ajax_loading: true
   analytics_code: "UA-178404113-1"
   custom_styles: ""
   header_js: ""
