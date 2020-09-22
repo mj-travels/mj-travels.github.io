@@ -1,7 +1,7 @@
 site: MJ Travels
 
 url: https://mj-travels.be
-baseurl: 
+baseurl:
 
 collections:
   pages:
