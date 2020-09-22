@@ -46,7 +46,26 @@
 	position: relative;
 	display: block;
 
+	@include mq(phonel) {
+
+		& {
+
+			.portfolio-item__content {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+
 	@include mq(tabletl) {
+
+		& {
+
+			.portfolio-item__content {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
 
 		&:hover {
 
