@@ -19,7 +19,15 @@ layout: default
 
 		{{ page.content }}
 
+		<hr>
+
 		{% include share-buttons.html %}
+
+		<hr>
+
+		{% if site.disqus and page.comments %}
+    		{% include disqus.html %}
+		{% endif %}
 
 	</div>
 
