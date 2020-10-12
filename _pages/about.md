@@ -7,7 +7,7 @@ featured_image: /images/about/featured.jpg
 
 ![](/images/about/both.jpg)
 
-## Our goal
+## Our journal
 
 *Todo*
 
